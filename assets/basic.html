@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mysic - Platform Musik Indonesia</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            text-align: center;
+        }
+        h1 {
+            color: #FFA000;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        a {
+            display: inline-block;
+            background-color: #FFA000;
+            color: #333;
+            padding: 0.8rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .loader {
+            border: 5px solid rgba(255, 255, 255, 0.1);
+            border-top: 5px solid #FFA000;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 2rem;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+    <h1>Mysic</h1>
+    <p>Memuat platform musik sederhana...</p>
+    <a href="./index.html">Klik di sini jika tidak otomatis dialihkan</a>
+    
+    <script>
+        // Redirect ke halaman utama setelah 2 detik
+        setTimeout(function() {
+            window.location.href = "./index.html";
+        }, 2000);
+    </script>
+</body>
+</html> 

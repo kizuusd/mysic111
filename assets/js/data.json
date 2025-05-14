@@ -1,0 +1,162 @@
+{
+  "tracks": [
+    {
+      "id": 1,
+      "title": "Irama Nusantara",
+      "artist": "Mysic Indonesia",
+      "duration": "3:45",
+      "cover": "/assets/images/fallback.svg",
+      "audioSrc": "",
+      "genre": "Traditional"
+    },
+    {
+      "id": 2,
+      "title": "Melodi Pagi",
+      "artist": "Suara Merdu",
+      "duration": "2:55",
+      "cover": "/assets/images/fallback.svg",
+      "audioSrc": "",
+      "genre": "Pop"
+    },
+    {
+      "id": 3,
+      "title": "Harmoni Senja",
+      "artist": "Musikalisasi",
+      "duration": "4:20",
+      "cover": "/assets/images/fallback.svg",
+      "audioSrc": "",
+      "genre": "Acoustic"
+    },
+    {
+      "id": 4,
+      "title": "Lagu Bahagia",
+      "artist": "Senandung Hati",
+      "duration": "3:15",
+      "cover": "/assets/images/fallback.svg",
+      "audioSrc": "",
+      "genre": "Pop"
+    },
+    {
+      "id": 5,
+      "title": "Kenangan Manis",
+      "artist": "Lirik Indah",
+      "duration": "3:30",
+      "cover": "/assets/images/fallback.svg",
+      "audioSrc": "",
+      "genre": "Pop"
+    },
+    {
+      "id": 6,
+      "title": "Perjalanan Hidup",
+      "artist": "Musisi Jalanan",
+      "duration": "4:10",
+      "cover": "/assets/images/fallback.svg",
+      "audioSrc": "",
+      "genre": "Rock"
+    },
+    {
+      "id": 7,
+      "title": "Langit Biru",
+      "artist": "Awan Putih",
+      "duration": "3:22",
+      "cover": "/assets/images/fallback.svg",
+      "audioSrc": "",
+      "genre": "Pop"
+    },
+    {
+      "id": 8,
+      "title": "Rindu Kamu",
+      "artist": "Pelangi Hati",
+      "duration": "2:59",
+      "cover": "/assets/images/fallback.svg",
+      "audioSrc": "",
+      "genre": "Pop"
+    },
+    {
+      "id": 9,
+      "title": "Bintang Malam",
+      "artist": "Awan Putih",
+      "duration": "3:35",
+      "cover": "/assets/images/fallback.svg",
+      "audioSrc": "",
+      "genre": "Pop"
+    },
+    {
+      "id": 10,
+      "title": "Melodi Hati",
+      "artist": "Suara Merdu",
+      "duration": "3:25",
+      "cover": "/assets/images/fallback.svg",
+      "audioSrc": "",
+      "genre": "Pop"
+    },
+    {
+      "id": 11,
+      "title": "Puisi Cinta",
+      "artist": "Lirik Indah",
+      "duration": "4:05",
+      "cover": "/assets/images/fallback.svg",
+      "audioSrc": "",
+      "genre": "Ballad"
+    },
+    {
+      "id": 12,
+      "title": "Jalan Panjang",
+      "artist": "Musisi Jalanan",
+      "duration": "3:50",
+      "cover": "/assets/images/fallback.svg",
+      "audioSrc": "",
+      "genre": "Rock"
+    }
+  ],
+  "playlists": [
+    {
+      "id": 1,
+      "name": "Favorit",
+      "description": "Kumpulan lagu-lagu favorit kamu",
+      "tracks": []
+    },
+    {
+      "id": 2,
+      "name": "Pop Indonesia",
+      "description": "Lagu pop Indonesia terbaik",
+      "tracks": [2, 4, 5, 7, 8]
+    },
+    {
+      "id": 3,
+      "name": "Musik Santai",
+      "description": "Lagu-lagu untuk bersantai",
+      "tracks": [3, 9, 11]
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "Suara Merdu",
+      "genre": "Pop",
+      "description": "Penyanyi pop Indonesia dengan suara yang indah",
+      "tracks": [2, 10]
+    },
+    {
+      "id": 2,
+      "name": "Awan Putih",
+      "genre": "Pop",
+      "description": "Duo vokal dengan melodi merdu yang menyentuh hati",
+      "tracks": [7, 9]
+    },
+    {
+      "id": 3,
+      "name": "Lirik Indah",
+      "genre": "Pop/Ballad",
+      "description": "Pencipta lagu dengan lirik yang puitis dan menyentuh",
+      "tracks": [5, 11]
+    },
+    {
+      "id": 4,
+      "name": "Musisi Jalanan",
+      "genre": "Rock",
+      "description": "Band rock yang terinspirasi dari kehidupan jalanan",
+      "tracks": [6, 12]
+    }
+  ]
+} 

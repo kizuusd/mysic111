@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "name": "mysic-player",
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "headers": { "cache-control": "public, max-age=31536000, immutable" },
+      "continue": true
+    },
+    {
+      "src": "/$",
+      "dest": "/assets/basic.html"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/assets/basic.html"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+} 
